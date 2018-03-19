@@ -1,0 +1,198 @@
+/* full page background */
+html { 
+	background: url('https://images.unsplash.com/photo-1482228616287-85bcf6f8c585?ixlib=rb-0.3.5&s=8c3a09f87379f1519cdc47c1591289c2&auto=format&fit=crop&w=2996&q=80"') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body {
+	color: white;
+	font-family: Jaldi;
+	font-size: 22px;
+	margin: 0;
+	padding: 0;
+  
+}
+
+main {
+	margin-bottom: 5%;
+	width: 100%;
+}
+
+
+/* question & score counters */
+
+header {
+	display: block;
+	float: right;
+	margin: 10% 5% 0 0;
+}
+
+ul {
+	font-size: 26px;
+	margin: 0;
+}
+
+li {
+	background-color: #445D64;
+	clear: right;
+	color: white;
+	float: right;
+	font-size: 18px;
+	letter-spacing: 1.5px;
+	list-style: none;
+  	opacity: 0.85;
+  	text-transform: uppercase;
+  	width: 100%;
+}
+
+.counter-label {
+	padding-left: 10px;
+}
+
+.score-number {
+	margin-top: 10px;
+}
+
+.question-count-num, .correct-count-num {
+	font-style: oblique;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+
+
+/* quiz app start page & main content */
+
+.start-page, .quiz-app {
+	clear: both;
+	padding-left: 3%;
+}
+
+.start-page-content, .question-page {
+	display: inline-block;
+	margin-top: 5%;
+	padding-right: 25%;
+}
+
+.feedback-page, .final-page {
+	display: inline-block;
+	margin-top: 5%;
+	padding: 0;
+}
+
+h1, h2 {
+	background-color: #966d1e;
+	color: white;
+	display: inline;
+	font-style: italic;
+	letter-spacing: -1.5px;
+	line-height: 1.5;
+	opacity: 0.9;
+	padding: 0 20px 0 10px;
+}
+
+fieldset, .feedback-content {
+	border: 0;
+	background-color: #1E7C96;
+	letter-spacing: -1px;
+	margin-top: 5%;
+	opacity: 0.9;
+	padding-top: 3%;
+}
+
+input {
+	float: left;
+	margin-top: 1.5em;
+	margin-left: 1.5%;
+}
+
+label {
+	display: block;
+	margin-left: 30px;
+	padding: 5px 10px;
+	transform: scaleY(.95);
+}
+
+.start-page-button {
+	padding-right: 30%;
+}
+
+.button-start {
+	background-color: #1e5f71;
+	border: 0;
+	color: white;
+	display: block;
+	font-size: 14px;
+	letter-spacing: -.5px;
+	margin-top: 1em;
+	opacity: 0.95;
+	padding: 5px;
+	text-transform: lowercase;
+}
+
+.button-submit {
+	background-color: #113e4b;
+	border: 0;
+	color: white;
+	display: block;
+	font-size: 14px;
+	letter-spacing: -.5px;
+	margin-top: 1em;
+	margin-left: 1.5%;
+	padding: 5px;
+	text-transform: lowercase;
+}
+
+.button-next, .button-restart {
+	background-color: #113e4b;
+	border: 0;
+	color: white;
+	display: block;
+	font-size: 14px;
+	letter-spacing: -.5px;
+	padding: 5px;
+	text-transform: lowercase;
+}
+
+
+/* feedback and final pages */
+.feedback-img {
+	display: inline-block;
+	margin-right: 5px;
+	width: 25px;
+}
+
+.feedback-explanation {
+	display: block;
+	margin: 0;
+	overflow-wrap: break-word;
+	padding: 20px;
+	transform: scaleY(.95);
+}
+
+.feedback-explanation-label {
+	font-weight: bold;
+	letter-spacing: -.5px;
+	margin: 0;
+	padding-left: 20px;
+	text-transform: uppercase;
+}
+
+.feedback-page-button, .final-page-button {
+	padding: 0 0 5% 5%;
+}
+
+.answer {
+	font-style: italic;
+}
+
+.final-score {
+	font-style: oblique;
+	font-weight: bold;
+	letter-spacing: -.5px;
+	padding-left: 5%;
+	text-transform: uppercase;
+}
