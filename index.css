@@ -103,6 +103,11 @@ fieldset, .feedback-content {
 	padding-top: 3%;
 }
 
+legend {
+	font-size: 1px;
+	visibility: hidden;
+}
+
 input {
 	float: left;
 	margin-top: 1.5em;

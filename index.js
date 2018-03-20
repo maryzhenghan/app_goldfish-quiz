@@ -20,20 +20,21 @@ function quizLaunch(questionBankObject) {
 		  		<div id="mc-radio-inputs">
 		  			<form role="form" aria-labelledby="mc-radio-inputs">
 		    			<fieldset class="col-12">
+		    				<legend>Pick an answer below:</legend>
 		    				<div>
-		       					<input id="1" type="radio" name="mc-input" required>
+		       					<input id="1" type="radio" name="mc-input" aria-labelledby="answer-a" required>
 		       	 				<label for="1">${questionBankObject.a}</label>
 		       				</div>
 		       				<div>
-		       	 				<input id="2" type="radio" name="mc-input" required>
+		       	 				<input id="2" type="radio" name="mc-input" aria-labelledby="answer-b" required>
 		       		 			<label for="2">${questionBankObject.b}</label>
 		        			</div>
 		        			<div>
-		        				<input id="3" type="radio" name="mc-input" required>
+		        				<input id="3" type="radio" name="mc-input" aria-labelledby="answer-c" required>
 		        				<label for="3">${questionBankObject.c}</label>
 		        			</div>
 		        			<div>
-		        				<input id="4" type="radio" name="mc-input" required>
+		        				<input id="4" type="radio" name="mc-input" aria-labelledby="answer-d" required>
 		        				<label for="4">${questionBankObject.d}</label>
 		        			</div>
 				
